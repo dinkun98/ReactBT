@@ -2,33 +2,18 @@
 // attribute => viết theo  quy tắc camelCase
 // phỏng vấn có nói về react life cycle
 
-import { BTMovie } from "./BTMovie/BTMovie"
-import ClassComponent from "./DemoComponent/ClassComponent"
-import { FunctionComponent } from "./DemoComponent/FunctionComponent"
-import { HandleEvent } from "./HandleEvent/HandleEvent"
-import { RenderWithCondition } from "./RenderWithCondition/RenderWithCondition"
-import { RenderWithMap } from "./RenderWithMap/RenderWithMap"
-import { Databinding } from "./databinding/Databinding"
-import { Header } from "./BTComponent/Header"
-import { Middle } from "./BTComponent/Middle"
+import './index.css'
+import { Header } from './BaiTapThucHanhLayOut/Header'
+import { Body } from './BaiTapThucHanhLayOut/Body'
+import { Footer } from './BaiTapThucHanhLayOut/Footer'
 
 function App() {
 
   return (
     <div>
-      
-      {/* <FunctionComponent></FunctionComponent>
-      <FunctionComponent></FunctionComponent>
-      <FunctionComponent></FunctionComponent>
-      <FunctionComponent></FunctionComponent>
-      <ClassComponent></ClassComponent>
-      <Databinding></Databinding>
-      <RenderWithCondition></RenderWithCondition>
-      <HandleEvent></HandleEvent>
-      <RenderWithMap></RenderWithMap>
-     <BTMovie></BTMovie> */}
-     <Header></Header>
-     <Middle></Middle>
+<Header></Header>
+<Body></Body>
+<Footer></Footer>
     </div>
       
     
